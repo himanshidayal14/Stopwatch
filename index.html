@@ -65,6 +65,17 @@
     
     <script>
 
+        const playbutton=document.getElementsByClassName("play")[0];
+        const lapbutton = document.getElementsByClassName("lap")[0];
+        const resetbutton = document.getElementsByClassName("reset")[0];
+
+        let isplay=false
+
+        const togglebutton= () =isplay =>{
+            lapbutton.classList.remove("hidden")
+            resetbutton.classList.remove("hidden")
+        }
+
         
 
     </script>
